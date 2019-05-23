@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197e4fc6-91e0-4d68-9aa6-3b019f393ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examen1G4/src/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/examen2G4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/src/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2G4/src/src/Recursividad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen1G4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen1G4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/problema1G4/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
-              <caret line="71" column="11" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="71" selection-end-column="11" />
+              <caret line="71" column="11" selection-start-line="11" selection-start-column="8" selection-end-line="71" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -185,7 +191,7 @@
     <entry file="file://$PROJECT_DIR$/problema1G4/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
-          <caret line="71" column="11" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="71" selection-end-column="11" />
+          <caret line="71" column="11" selection-start-line="11" selection-start-column="8" selection-end-line="71" selection-end-column="11" />
         </state>
       </provider>
     </entry>
