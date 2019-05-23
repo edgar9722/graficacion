@@ -50,7 +50,7 @@ public class main extends JPanel {
             cajas.addFirst(new caja(r.get(),t.get()));
 
 
-
+d
         });
 
         boton1.addActionListener(e -> {
