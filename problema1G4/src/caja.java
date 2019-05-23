@@ -1,17 +1,26 @@
 import java.util.LinkedList;
 
-public class caja {
+public class caja implements Comparable<caja>{
 int radio;
 int altura;
-LinkedList<Double> tamaños;
 
-    public caja(int radio, int altura, LinkedList<Double> tamaños) {
+
+    public caja(int radio, int altura) {
         this.radio = radio;
         this.altura = altura;
-        this.tamaños = tamaños;
+
 
     }
 
-
+    @Override
+    public int compareTo(caja o) {
+        if (altura > o.altura  && radio > o.radio) {
+            return -1;
+        }
+        if (altura <  o.altura && radio <  o.radio) {
+                return 1;
+        }
+        return 0;
+    }
 
 }
