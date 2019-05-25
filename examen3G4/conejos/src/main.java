@@ -18,19 +18,19 @@ public class main {
 
         //panel
         JFrame frame = new JFrame("Graficos Edgar - cuarto parcial Graficacion");
-        frame.setSize(1600, 1000);
+        frame.setSize(2000, 1000);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JTextField meses = new JTextField("meses");
-        meses.setBounds(20,50,80,20);
+        meses.setBounds(20,20,80,20);
         frame.add(meses);
 
         meses.setVisible(true);
         // boton de agrgar a la lista
 
-        JButton obtenerCAdultos = new JButton("obtener adultos");
-        obtenerCAdultos.setBounds(250,100,100,50);
+        JButton obtenerCAdultos = new JButton("GO!!");
+        obtenerCAdultos.setBounds(100,20,100,20);
         frame.add(obtenerCAdultos);
         obtenerCAdultos.setVisible(true);
 
@@ -54,9 +54,9 @@ public class main {
         for (int i = 0; i < meses  ; i++) {
             if (i == 0) {
                 Padulto(g, 0, i);
-                Pbebe(g, 1, i);
+                Pbebe(g, 1*2, i);
             }else if (i == 1) {
-                Padulto(g, 1, i);
+                Padulto(g, 1*2, i);
                 Pbebe(g, 0, i);
             } else {
 
@@ -64,14 +64,14 @@ public class main {
                 p = b + a;
                 a = b;
                 b = p;
-                Padulto(g, p, i);
+                Padulto(g, p*2, i);
 
                 // bebes
                 p1 = d + c;
                 c = d;
                 d = p1;
                 System.out.println("adultos = " + p + "bebes = " + p1);
-                Pbebe(g, p1, i);
+                Pbebe(g, p1*2, i);
 
 
             }
@@ -101,8 +101,11 @@ public class main {
     //imprime la cantidad de conejos
     public static void Pbebe(Graphics g,int num, int y){
         // coordenadas d
-        int x1 = 800 ;
-        int y1  = y*100  ;
+        int x1=0;   ///700
+        int y1  = y*100;
+        if(y == 0)
+            x1 = 600;
+        else x1=700;
 
         // dibuja en horizontal los conejos
         for (int i = 0; i < num  ; i++) {
@@ -129,8 +132,11 @@ public class main {
 
     public static void Padulto(Graphics g,int num, int y){
         // coordenadas d
-        int x1 = 800 ;
+        int x1  = 0;   //800
         int y1  = y*100  ;
+        if (y == 1)
+            x1 = 900;
+        else x1 = 800;
 
         // dibuja en horizontal los conejos
         for (int i = 0; i < num  ; i++) {

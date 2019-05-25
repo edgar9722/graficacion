@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="506d797a-f6aa-48fc-acac-03ff6d3f6ed8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examen1G4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examen1G4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conejos/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/conejos/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/conejos/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/conejos/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../problema1G4/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../problema1G4/src/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conejos/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="137" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,12 +110,12 @@
       <workItem from="1558613345410" duration="2339000" />
       <workItem from="1558635592448" duration="140000" />
       <workItem from="1558721436260" duration="10321000" />
-      <workItem from="1558750716164" duration="1379000" />
+      <workItem from="1558750716164" duration="4037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14179000" />
+    <option name="totallyTimeSpent" value="16837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="999" extended-state="6" />
@@ -145,7 +140,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32996634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -163,8 +158,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conejos/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="137" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
