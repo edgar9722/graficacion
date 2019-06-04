@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="197e4fc6-91e0-4d68-9aa6-3b019f393ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen3G4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen3G4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen1G4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen1G4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen1G4/out/production/src/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/examen1G4/out/production/src/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen1G4/src/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen1G4/src/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen2G4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen2G4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen2G4/out/production/src/Recursividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/examen2G4/out/production/src/Recursividad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen2G4/src/src/Recursividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen2G4/src/src/Recursividad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/problema1G4/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problema1G4/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problema1G4/src/caja.java" beforeDir="false" afterPath="$PROJECT_DIR$/problema1G4/src/caja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problema1G4/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/problema1G4/src/main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,20 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problema1G4/src/caja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="164">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problema1G4/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="154">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +72,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/problema1G4/src/main.java" />
+        <option value="$PROJECT_DIR$/problema1G4/src/caja.java" />
       </list>
     </option>
   </component>
@@ -71,8 +82,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="179" />
+    <option name="y" value="243" />
     <option name="width" value="1280" />
     <option name="height" value="704" />
   </component>
@@ -121,6 +133,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="problema1G4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -138,17 +164,22 @@
       <workItem from="1558613302163" duration="42000" />
       <workItem from="1558624333389" duration="622000" />
       <workItem from="1558635592759" duration="600000" />
+      <workItem from="1558927068792" duration="1566000" />
+      <workItem from="1558966320433" duration="2489000" />
+      <workItem from="1558977445602" duration="539000" />
+      <workItem from="1558981062262" duration="72000" />
+      <workItem from="1558986133805" duration="2751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3596000" />
+    <option name="totallyTimeSpent" value="11013000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="179" y="243" width="1280" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.27544427" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.29402262" />
       <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.38449112" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -157,7 +188,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5016779" side_tool="true" weight="0.38449112" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50503355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -167,6 +198,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24916388" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,17 +218,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problema1G4/src/caja.java">
+    <entry file="file://$PROJECT_DIR$/problema1G4/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problema1G4/src/main.java">
+    <entry file="file://$PROJECT_DIR$/problema1G4/src/caja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="164">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>

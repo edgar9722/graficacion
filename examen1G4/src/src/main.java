@@ -3,7 +3,7 @@ import java.awt.*;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class main {
+public class main extends  JPanel{
     static int colunmas, renglones;
     static int corteC= 0;
     static int corteR =0;
@@ -16,30 +16,33 @@ public class main {
 
         JFrame frame = new JFrame("Graficos Edgar - cuarto parcial Graficacion");
         frame.setSize(800, 800);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JTextField columnas = new JTextField("columnas");
+        JTextField renglones = new JTextField("renglones");
+
+        columnas.setBounds(20,50,80,20);
+        renglones.setBounds(120,50,80,20);
+
+        frame.add(columnas);
+        frame.add(renglones);
+        columnas.setVisible(true);
+        renglones.setVisible(true);
 
         JButton bt = new JButton("Hacer Corte");
         JButton boton = new JButton("Dibujar chocolate");
-        JTextField columnas = new JTextField("columnas");
-        JTextField renglones = new JTextField("renglones");
-        JLabel label = new JLabel("");
-        bt.setAlignmentX(250);
-        bt.setAlignmentY(300);
-        bt.setSize(200,20);
-        boton.setBounds(250,50,200,20);
-        label.setBounds(100,100, 80,30 );
-        columnas.setBounds(20,50,80,20);
-        renglones.setBounds(120,50,80,20);
-        frame.add(boton);
-        frame.add(label);
-        frame.add(columnas);
-        frame.add(renglones);
+        bt.setBounds(250,100,200,20);
         frame.add(bt);
-        frame.setVisible(true);
-        columnas.setVisible(true);
-        renglones.setVisible(true);
+        boton.setBounds(250,50,200,20);
+        frame.add(boton);
+
+
         bt.setVisible(true);
-       // label.setVisible(true);
+
         boton.setVisible(true);
+
+        frame.getContentPane().add(new main());
+        frame.setVisible(true);
 
 
 
@@ -73,6 +76,7 @@ public class main {
         g.setColor(Color.GRAY);
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
+                // el 10 es un espacio
                 g.fillRect(100+(j*100)+10,200+(i*100)+10,70,70);
 
             }
@@ -83,16 +87,19 @@ public class main {
     }
     public static void dibujarCort(Graphics g,int veces){
         g.setColor(Color.red);
-        if(veces < colunmas-1){
+
+        if(veces < colunmas){
             corteC +=1;
             g.fillRect(100 + (corteC * 100),200,5,renglones*100);
 
-        }else if (veces > colunmas -1  && veces < renglones -1 ){
+        }else {
+
             corteR += 1;
+            if(corteR < renglones)
             g.fillRect(100 ,200 + (corteR * 100),colunmas*100,5);
+             else System.out.println("ya no puedes cortar");
 
-
-        } else System.out.println("ya no puedes cortar");
+        }
 
     }
 }
